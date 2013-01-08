@@ -9,11 +9,13 @@
 */
 #include <stdio.h>
 void main(void){
-	int a,b;
+	int a,b,c;
 	printf("aの値を入力してください：");
 	scanf("%d",&a);
 	printf("bの値を入力してください：");
 	scanf("%d",&b);
-	a = a * b;
-	printf("aとbの積はは%dです。\n",a);
+	printf("cの値を入力してください：");
+	scanf("%d",&c);
+	a = a + b * c;
+	printf("aとbとcの積和演算はは%dです。\n",a);
 }
