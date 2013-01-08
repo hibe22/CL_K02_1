@@ -14,6 +14,6 @@ void main(void){
 	scanf("%d",&a);
 	printf("bの値を入力してください：");
 	scanf("%d",&b);
-	a = a + b;
-	printf("aとbの合計は%dです。\n",a);
+	a = a * b;
+	printf("aとbの積はは%dです。\n",a);
 }
