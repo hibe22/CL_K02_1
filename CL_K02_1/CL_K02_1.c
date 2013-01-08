@@ -18,6 +18,6 @@ void main(void){
 	scanf("%d",&c);
 	printf("dの値を入力してください：");
 	scanf("%d",&d);
-	a = a + (b * c) * d;
+	a = a * (b * c * d);
 	printf("計算結果は%dです。\n",a);
 }
